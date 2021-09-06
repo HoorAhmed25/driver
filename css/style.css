@@ -1,0 +1,118 @@
+body{
+    font-family: 'Cairo',sans-serif; !important
+    background-color: #fff;
+    color : #49405d;
+	overflow-x: hidden;
+    transition: 0.5s;
+}
+nav{
+    background-image: linear-gradient(to right, #085E8C, #277DAB);
+    text-align: right;
+    padding-right: 30px;
+    width: 100%;
+    height: 70px;
+    
+}
+footer{
+
+    background-image: linear-gradient(to right, #085E8C, #277DAB);
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    color: white;
+    padding-top: 20px;
+    font-size: 22px; !important
+    font-weight: 500;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+.back  a {
+text-decoration: none;  
+    }
+
+
+.back{
+    background-image: url(../img/world-map.pictures_aluminium-wall-pictures.jpg);
+    background-size: cover;
+   
+        min-height: 100vh;
+     position: relative;
+
+}
+        .container2{
+   position: absolute;
+    background-color:rgba(39, 125, 171, .9);
+height: 100%;
+    width: 100%;
+align-content: center;
+}
+
+
+.card{
+height: 370px;
+margin-top: 150px; 
+    margin-bottom: 100px;
+width: 400px;
+background-color: rgba(255, 255, 255, 0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+  
+}
+
+.social_icon span{
+font-size: 45px;
+
+color: #fff;
+    text-align: center !important;
+    border-radius: 50%; 
+}
+
+.social_icon span:hover{
+color: #085E8C;
+cursor: pointer;
+}
+
+.card-header h3{
+color: #fff;
+    text-align:center;
+    font-size: 30px;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+
+color: #085E8C;
+border:0 !important;
+}
+.input .form-control{
+    background-color:rgba(255, 255, 255, 0.04);
+}
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+.card a{
+margin-left: 4px;
+    color: #de1666;
+    margin-top: 20px;
+}
